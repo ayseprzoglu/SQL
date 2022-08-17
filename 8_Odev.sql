@@ -9,7 +9,7 @@ CREATE TABLE employee (
 ------------  2  ---------------
 --Mockaroo web sitesine girerek , bir önceki adımda oluşturduğumuz sütunleri veri tiplerini yazarak 50 adet veri üretip kopyalayarak yapıştırıyoruz.
 
-#id yazılmasada serial veri tipinde olduğu
+#id yazılmayadabilir. (serial veri tipinde olduğu için)
 
 insert into employee(id, name, birthday, email) values (1, 'Lind', '1971/02/19', 'lissatt0@imdb.com');
 insert into employee(id, name, birthday, email) values (2, 'Marci', '1977/06/18', 'moxburgh1@dagondesign.com');
